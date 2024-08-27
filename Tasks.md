@@ -144,8 +144,53 @@
        - What is the total value of all of the items that in stock
        - When was the earliest order placed in our database
        - Currently we are using VARCHAR(100) to store the product descriptions.
-       - A manager is wondering whether we could ‘alter’ this table to reduce this to varchar(50). rite a query that shows what it would be like if we only stored up to the first 50 characters of each product description.
+       - A manager is wondering whether we could ‘alter’ this table to reduce this to varchar(50). Write a query that shows what it would be like if we only stored up to the first 50 characters of each product description.
           - Do you think that 50 characters would be enough?
-       - For every order in the database, display how many days ago the order was placed.
-       - Who would be the customer with the most characters in their combined first name and surname
+       - For every order in the database, display how many days ago the order was placed
+       - Who is the customer with the most characters in their combined first name and surname
 
+10. Group-by
+    - Using the Stock database write SQL for the following queries
+       - Write a query that displays each category of product that we sell, and the number of orders for each category that we currently have.
+       - Write a query that displays the number of orders in the database, grouped by order date (display all the dates we have received orders on, and the number of orders on each date).
+       - (extension) Write a query that shows the value of stock we hold from each of our suppliers  (display the name of each supplier, and next to it display the total value of stock from that supplier)
+     
+11. Having
+    - Using the Stock database
+       -  Display each category of product that we sell, and the number of orders for each category that we currently have.  However, only display results for categories where the number of orders is less than 20.
+       -  (extension) Display how many orders each customer has placed – but only display results where a customer has placed more than one order.
+
+12. Union
+    - Using the Stock database
+       - Write a query that displays the product number, description, supplier number and price of our products from all suppliers other than Supplier 1.
+       - Write a second query that displays the product number, description, supplier number and price excluding VAT for all products supplied by Supplier 1 only.
+       - Use the UNION operator to show the data from both queries above all together in one set of results.
+
+13. Views
+    - Using the Stock database
+       - Create a VIEW that contains: Product descriptions next to the name of the company that supplies them
+       - Create a VIEW that contains: A list of order numbers, with the product name and quantity ordered next to it
+       - For each of the VIEWs: Run a SELECT query of some sort, to check that the data is retrievable.
+       - For each of the VIEWs: Try to run other CRUD queries on your view – i.e. an INSERT, an UPDATE and a DELETE.  
+
+14. General Practice
+    - Using the Stock database
+       - Show the product number, description, category and stock level information for all products
+       - Show the details of all orders where more than one of a product has been ordered.
+       - Display all order numbers in the database, and alongside each, display the total number of items on the order
+       - Show all details of all customers who live in the West Midlands, and whose credit limit is greater than £1000
+       - Show the product name, number and supplier name for all products.  Sort the results by supplier name, alphabetically
+       - Find an order number from the database.  For this order number, display the details of the product that have been ordered.
+       - Allow the user to enter a customer number, and then display the number of orders that customer has.
+       - Produce a query that displays all customer numbers and names, along with the number of orders that each customer has placed.  Sort the results alphabetically by surname.
+       - Allow the user to enter an order number.  Display the Customer name and product name on the order
+       - In one query, retrieve the order number for the order that has been placed for the highest quantity of a particular product.
+       - There has been lots of complaints about products from Supplier 1.  Management have decided to suspend all orders for products from Supplier 1 while quality-control issues are sorted out.  In the meantime, the contact details of all customers who have placed orders for products from supplier 1 need to be retrieved.  These will be used to call the customers and explain that there might be a delay.
+          - Write the query to retrieve the customer contact details for everyone who has ordered products from supplier 1.
+
+
+15. Extension
+    - Using the Stock database
+       - Create a stored procedure for one of the simple queries you have created previously.
+       - Create a stored procedure that will allow you to DELETE an order, by just passing it the order number
+       - Create and test a Stored Procedure that can easily be executed to delete a customer, and all associated data from our ‘Stock’ database.  The stored procedure should simply be able to be executed by passing it a Customer ID. 
