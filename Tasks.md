@@ -1,8 +1,53 @@
 # Tasks to perform on the provided data:
 
-#### Before you begine, be sure you have loaded the sample SOTSql database.  
+#### Before you begin, be sure you have loaded the sample SOTSql database.  
 [Getting Started](./Getting%20Started.md)
-1. SQL Basic Syntax and Key Concepts
+
+1. SQL Key Terms
+   - Task 1: Create a table to store the details of the following keywords and their definitions, add additional rows as needed.
+        | **Key Term**        | **Meaning/Definition** |
+        |---------------------|------------------------|
+        | Data                |                        |
+        | Information         |                        |
+        | DBMS                |                        |
+        | Relational Database |                        |
+        | Primary Key         |                        |
+        | Foreign Key         |                        |
+        | Data Redundancy     |                        |
+        | Data Integrity      |                        |
+        | DDL                 |                        |
+        | DML                 |                        |
+        | ...                 |                        |
+   - Task 2: Create a table to store the details of different DataTypes and an example of what can be stored within them
+        | **DataType**         | **Data that can be Stored** |
+        |----------------------|-----------------------------|
+        | Integer              |                             |
+        | Float                |                             |
+        | VarChar              |                             |
+        | Datatime             |                             |
+        | ...                  |                             |
+     
+2. Creating Databases and Tables
+   - Task 1: Create a new database called RelationalTest
+   - Task 2: Create the following tables
+      - Customer
+           - ID
+           - FirstName
+           - Surname
+      - Order
+           - ID
+           - OrderDate
+           - ProductID
+           - CustomerID
+           - Quantity
+           - OrderValue
+      - Product
+           - ID
+           - ProductName
+           - Price
+   - Task 3: Identify how you would link the above three tables together and set the primary and foreign keys appropriately
+
+4. SQL Basic Syntax and Key Concepts
    - Task 1: Select all sales from the Sales table
    - Task 2: Display client names with their respective total spent on purchases using a simple join between Clients and Sales tables.
 
