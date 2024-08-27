@@ -2,7 +2,7 @@
 Lesson: Basic SQL - SELECT Statements, Primary Keys & Joins
 ---------------------------------------------------------
 
-([Go Back](./README.md))
+[Intro Page](./README.md) | [Tasks](./Tasks.md)
 
 ### 1. Introduction to SQL Basics and Key Concepts
 
