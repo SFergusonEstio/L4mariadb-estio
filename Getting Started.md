@@ -1,6 +1,6 @@
-# Getting Started
+[Intro](./README.md) | [Getting Started]('./Getting Started.md') | [Tasks](./Tasks.md) | [SQL Basics](./sqlbasics.md)
 
-([Go Back](./README.md))
+# Getting Started
 
 When you start off your web based Codespace environment, the system will prepare your development environment for you complete with, VS Code, an MySQL Server with tools to connect to it and start coding. 
 The setup of a new environment will take about a minute the first time, but once it’s set up, you should see the option.
