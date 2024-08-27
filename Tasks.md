@@ -1,7 +1,4 @@
-# Tasks to perform on the provided data:
-
-#### Before you begin, be sure you have loaded the sample SOTSql database.  
-[Getting Started](./Getting%20Started.md)
+# Tasks to complete:
 
 1. SQL Key Terms
    - Task 1: Create a table to store the details of the following keywords and their definitions, add additional rows as needed.
@@ -48,6 +45,9 @@
            - ProductName
            - Price
    - Task 3: Identify how you would link the above three tables together and set the primary and foreign keys appropriately
+
+#### Before you continue, be sure you have loaded the sample SOTSql database.  
+[Getting Started](./Getting%20Started.md)
 
 4. SQL Basic Syntax and Key Concepts
    - Task 1: Select all sales from the Sales table
