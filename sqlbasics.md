@@ -1,8 +1,8 @@
+[Intro](./README.md) | [Tasks](./Tasks.md) | [SQL Basics](./sqlbasics.md)
+
 # SQL Basics
 Lesson: Basic SQL - SELECT Statements, Primary Keys & Joins
 ---------------------------------------------------------
-
-[Intro Page](./README.md) | [Tasks](./Tasks.md)
 
 ### 1. Introduction to SQL Basics and Key Concepts
 
