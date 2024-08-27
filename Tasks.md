@@ -1,5 +1,7 @@
 # Tasks to complete:
 
+([Go Back](./readme.md))
+
 1. SQL Key Terms
    - Task 1: Create a table to store the details of the following keywords and their definitions, add additional rows as needed.
      
@@ -26,6 +28,9 @@
         | Datatime             |                             |
         | ...                  |                             |
      
+
+#### Before you continue, be sure you have started the database ([Getting Started](./Getting%20Started.md))
+
 2. Creating Databases and Tables
    - Task 1: Create a new database called RelationalTest
    - Task 2: Create the following tables
@@ -46,8 +51,7 @@
            - Price
    - Task 3: Identify how you would link the above three tables together and set the primary and foreign keys appropriately
 
-#### Before you continue, be sure you have loaded the sample SOTSql database.  
-[Getting Started](./Getting%20Started.md)
+
 
 4. SQL Basic Syntax and Key Concepts
    - Task 1: Select all sales from the Sales table
