@@ -1,6 +1,6 @@
 # Tasks to complete:
 
-([Go Back](./readme.md))
+([Go Back](./README.md))
 
 1. SQL Key Terms
    - Task 1: Create a table to store the details of the following keywords and their definitions, add additional rows as needed.
