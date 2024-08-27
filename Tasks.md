@@ -53,6 +53,8 @@
 
 ([SQL Basics](./sqlbasics.md))
 
+#### For the following tasks please document your SQL on the [mywork.sql](./mywork.sql) document
+
 3. Intro to SQL
    - Run the SQL script for the [Sales Database](./Resources/Sales_db_script%20(MySQL).sql) which can be found in the Resources directory
    - Using the Sales database write SQL for the following queries
