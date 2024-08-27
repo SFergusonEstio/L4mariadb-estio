@@ -38,10 +38,3 @@ A **many-to-one** relationship exists when a record in one table is related to m
 ### 1.6 Introduction to Joins - III (Many-to-Many relationship)
 
 A **many-to-many** relationship exists when a record in one table is related to multiple records in another table, but vice versa, and each record may be related to many other records. In this case, you would join the tables on a column(s) that represents the relationship between them (e.g., EmployeeID and SupplierID in the Sales table).
-
-### 1.7 Basic SQL Examples
-
-Practice writing simple SELECT statements using the concepts introduced above:
-
-* Show all employees who haven't made any sales yet.
-* Find the total spent by a specific client (e
