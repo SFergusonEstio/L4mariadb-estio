@@ -1,4 +1,4 @@
-[Intro](./README.md) | [Getting Started]('./Getting Started.md') | [Tasks](./Tasks.md) | [SQL Basics](./sqlbasics.md)
+[Intro](./README.md) | [Getting Started](./Getting%20Started.md) | [Tasks](./Tasks.md) | [SQL Basics](./sqlbasics.md)
 
 # Getting Started
 
