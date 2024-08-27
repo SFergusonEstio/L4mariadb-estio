@@ -51,7 +51,7 @@
            - Price
    - Task 3: Identify how you would link the above three tables together and set the primary and foreign keys appropriately
 
-
+([SQL Basics](./sqlbasics.md))
 
 4. SQL Basic Syntax and Key Concepts
    - Task 1: Select all sales from the Sales table
