@@ -2,6 +2,8 @@
 Lesson: Basic SQL - SELECT Statements, Primary Keys & Joins
 ---------------------------------------------------------
 
+([Go Back](./README.md))
+
 ### 1. Introduction to SQL Basics and Key Concepts
 
 SQL (Structured Query Language) is a powerful language for managing and querying relational databases. let's look at the basic syntax and key concepts of SQL necessary for working with a relational database like the one described in the initial question.
