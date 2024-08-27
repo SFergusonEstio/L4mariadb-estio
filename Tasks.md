@@ -1,6 +1,6 @@
-# Tasks to complete:
+[Intro](./README.md) | [Getting Started](./Getting%20Started.md) | [Tasks](./Tasks.md) | [SQL Basics](./sqlbasics.md)
 
-([Go Back](./README.md))
+# Tasks to complete:
 
 1. SQL Key Terms
    - Task 1: Create a table to store the details of the following keywords and their definitions, add additional rows as needed.
@@ -53,7 +53,8 @@
 
 ([SQL Basics](./sqlbasics.md))
 
-4. SQL Basic Syntax and Key Concepts
+4. Intro to SQL
+   - Run the SQL script for the [Sales Database](./Resources/Sales_db_script%20(MySQL).sql)
    - Task 1: Select all sales from the Sales table
    - Task 2: Display client names with their respective total spent on purchases using a simple join between Clients and Sales tables.
 
