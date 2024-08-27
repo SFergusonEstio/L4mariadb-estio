@@ -5,6 +5,7 @@
 
 1. SQL Key Terms
    - Task 1: Create a table to store the details of the following keywords and their definitions, add additional rows as needed.
+     
         | **Key Term**        | **Meaning/Definition** |
         |---------------------|------------------------|
         | Data                |                        |
@@ -19,6 +20,7 @@
         | DML                 |                        |
         | ...                 |                        |
    - Task 2: Create a table to store the details of different DataTypes and an example of what can be stored within them
+     
         | **DataType**         | **Data that can be Stored** |
         |----------------------|-----------------------------|
         | Integer              |                             |
