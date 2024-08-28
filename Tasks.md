@@ -17,6 +17,10 @@
         | Data Integrity      |                        |
         | DDL                 |                        |
         | DML                 |                        |
+        | NoSQL               |                        |
+        | flatfile            |                        |
+        | XML                 |                        |
+        | JSON                |                        |
         | ...                 |                        |
    - Create a table to store the details of different DataTypes and an example of what can be stored within them
      
