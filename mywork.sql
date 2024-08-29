@@ -25,7 +25,7 @@
 
 
 -- Task 4
--- USE Stock;
+-- USE stock;
 
 -- Insert a new Supplier into your Database
 -- Insert a new Customer
@@ -63,7 +63,7 @@
 
 -- Task 6
 
--- USE Stock;
+-- USE stock;
 
 -- Change the first name of Rev Rob Girling to ‘Robert’
 -- Ms Jeannie Cook has now married and become Mrs Jeannie Burton.  Update her customer record accordingly.
@@ -86,7 +86,7 @@
 
 -- Task 7
 
--- USE Stock;
+-- USE stock;
 
 -- Create a query that for a particular order number, shows the items that have been ordered, the price of each item that is in the database (which include VAT), and the price of each item excluding VAT.  Note that the latter will need to be a calculated field.
 -- Write a query that uses a calculated field to display the total amount payable for each product on each order (i.e. the price of each product multiplied by the quantity).  
@@ -97,7 +97,7 @@
 
 -- Task 8
 
--- USE Stock;
+-- USE stock;
 
 -- Create a query that for a particular order number, shows the items that have been ordered, the price of each item that is in the database (which include VAT), and the price of each item excluding VAT.  Note that the latter will need to be a calculated field.
 -- Write a query that uses a calculated field to display the total amount payable for each product on each order (i.e. the price of each product multiplied by the quantity).
@@ -111,7 +111,7 @@
 
 --Task 9
 
--- USE Stock;
+-- USE stock;
 
 -- What is the average price of an item in our database
 -- What is the total value of all of the items that in stock
@@ -127,7 +127,7 @@
 
 -- Task 10
 
--- USE Stock;
+-- USE stock;
 
 -- Write a query that displays each category of product that we sell, and the number of orders for each category that we currently have.
 -- Write a query that displays the number of orders in the database, grouped by order date (display all the dates we have received orders on, and the number of orders on each date).
@@ -139,7 +139,7 @@
 
 -- Task 11
 
--- USE Stock;
+-- USE stock;
 
 --  Display each category of product that we sell, and the number of orders for each category that we currently have.  However, only display results for categories where the number of orders is less than 20.
 --  (extension) Display how many orders each customer has placed – but only display results where a customer has placed more than one order.
@@ -150,7 +150,7 @@
 
 -- Task 12
 
--- USE Stock;
+-- USE stock;
 
 -- Write a query that displays the product number, description, supplier number and price of our products from all suppliers other than Supplier 1.
 -- Write a second query that displays the product number, description, supplier number and price excluding VAT for all products supplied by Supplier 1 only.
@@ -162,7 +162,7 @@
 
 -- Task 13
 
--- USE Stock;
+-- USE stock;
 
 -- Create a VIEW that contains: Product descriptions next to the name of the company that supplies them
 -- Create a VIEW that contains: A list of order numbers, with the product name and quantity ordered next to it
@@ -175,7 +175,7 @@
 
 -- Task 14
 
--- USE Stock;
+-- USE stock;
 
 -- Show the product number, description, category and stock level information for all products
 -- Show the details of all orders where more than one of a product has been ordered.
@@ -195,7 +195,7 @@
 
 -- Task 15
 
--- USE Stock;
+-- USE stock;
 
 -- Create a stored procedure for one of the simple queries you have created previously.
 -- Create a stored procedure that will allow you to DELETE an order, by just passing it the order number
