@@ -88,9 +88,12 @@
 
 -- USE stock;
 
--- Create a query that for a particular order number, shows the items that have been ordered, the price of each item that is in the database (which include VAT), and the price of each item excluding VAT.  Note that the latter will need to be a calculated field.
--- Write a query that uses a calculated field to display the total amount payable for each product on each order (i.e. the price of each product multiplied by the quantity).  
-
+-- Display the Product Number, Product Description and Supplier Name for all products.
+-- For every order, display the order details AND the details of the product that has been ordered.
+-- By using one SQL query, display the Order Numbers and Product Numbers for all orders placed by Mrs Leah Barlow.
+-- Display the Product Number, Supplier Name and Product Description of all products where the current number in stock is less than 10.
+-- Add to the query above to also display the Order Number and Order Quantity of any orders that have been placed for these items (i.e. orders that have been placed for the products with less than 10 in stock).
+-- Use an outer join to show the details of all the products that have not yet been ordered.
 
 
 
